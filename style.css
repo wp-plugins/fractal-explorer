@@ -1,0 +1,17 @@
+.fracexp-container {
+	margin-top: 10px;
+	text-align: left;
+}
+
+.fracexp-element {
+}
+
+.fracexp-container a {
+	text-decoration: none;
+}
+
+.fracexp-container .fracexp-img {
+	width: 150px;
+	height: 150px;
+	border: 1px solid silver;
+}

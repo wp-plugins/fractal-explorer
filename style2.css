@@ -10,3 +10,19 @@
 
 .fracexp-backend-lang {
 }
+
+.fracexp-backend-info {
+	padding-left: 4px;
+	padding-right: 3px;
+	border: 1px solid gray;
+	
+	background-color: #F6F6F6;
+	color: #666666;
+	
+	font-weight: bold;
+}
+
+.fracexp-backend-foot {
+	margin-top: 10px;
+	display: none;
+}

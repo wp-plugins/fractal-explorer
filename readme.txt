@@ -1,6 +1,6 @@
 === Fractal-Explorer ===
 Contributors: carlos26
-Version: 0.3.0
+Version: 0.4.0
 Tags: fractal, explorer, zoom, viewer, julia, mandelbrot
 Requires at least: 2.5
 Tested up to: 2.9
@@ -40,3 +40,10 @@ Just edit fractal-explorer/style2.css.
 = Which languages are supported? =
 
 english, german and spanish
+
+
+== Screenshots ==
+
+1. Zoom into impressive julia fractals
+
+2. Animated dive into infinity

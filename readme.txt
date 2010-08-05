@@ -1,7 +1,7 @@
 === Fractal-Explorer ===
 Contributors: carlos26
-Version: 0.4.0
-Tags: fractal, explorer, zoom, viewer, julia, mandelbrot
+Version: 0.5.0
+Tags: fractal, explorer, images, mathematics, math, zoom, viewer, julia, mandelbrot, visualization
 Requires at least: 2.5
 Tested up to: 2.9
 Stable tag: trunk
@@ -11,6 +11,8 @@ Sidebar widget for the presentation and visualization of colored julia and mande
 == Description ==
 
 Sidebar widget for the presentation and visualization of colored julia and mandelbrot fractals. Animated zoom realized as GIF animation is used to dive into and explore the internal structure of fractals.
+
+Please ensure that you are connected to the internet when testing this plugin/widget on your local wordpress installation (i.e. on localhost), otherwise it will not be able to load and display required media files.
 
 Features:
 

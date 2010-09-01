@@ -1,9 +1,9 @@
 === Fractal-Explorer ===
 Contributors: carlos26
-Version: 0.5.0
+Version: 0.6.0
 Tags: fractal, explorer, images, mathematics, math, zoom, viewer, julia, mandelbrot, visualization
 Requires at least: 2.5
-Tested up to: 2.9
+Tested up to: 3.0
 Stable tag: trunk
 
 Sidebar widget for the presentation and visualization of colored julia and mandelbrot fractals. Animated zoom realized as GIF animation is used to dive into and explore the internal structure of fractals.
@@ -19,6 +19,10 @@ Features:
 * configurable number of fractals
 * zoom-in effect (GIF animation)
 * provides different colorful fractals
+
+
+[More about Fractal Explorer](http://web-fractals.sf.net/project.php)
+
 
 
 == Installation ==
